@@ -9,4 +9,9 @@ describe('binary') do
   it('takes a two digit binary number and converts it to decimal') do
     binary("10").should eq 2
   end
+
+  it('takes a 6 digit binary number and converts it to decimal') do
+    binary("110110").should eq 54
+  end
+
 end
