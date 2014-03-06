@@ -15,3 +15,9 @@ describe('binary') do
   end
 
 end
+
+describe('reverse_binary') do
+  it('takes a one digit decimal number and converts it to binary') do
+    reverse_binary(3).should eq 11
+  end
+end
